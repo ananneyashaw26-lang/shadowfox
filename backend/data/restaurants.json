@@ -1,0 +1,271 @@
+[
+  {
+    "id": "1",
+    "name": "Biryani House",
+    "cuisine": "Indian",
+    "rating": 4.5,
+    "deliveryTime": "25-35 min",
+    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=60",
+    "menu": [
+      {
+        "id": "101",
+        "name": "Chicken Dum Biryani",
+        "price": 249,
+        "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=500&auto=format&fit=crop&q=60",
+        "description": "Fragrant long-grain basmati rice cooked with succulent chicken pieces and signature spices, served with raita."
+      },
+      {
+        "id": "102",
+        "name": "Special Veg Biryani",
+        "price": 179,
+        "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?w=500&auto=format&fit=crop&q=60",
+        "description": "Medley of garden fresh vegetables cooked with aromatic basmati rice in slow dum style."
+      },
+      {
+        "id": "103",
+        "name": "Paneer Tikka Kebab",
+        "price": 199,
+        "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&auto=format&fit=crop&q=60",
+        "description": "Cottage cheese cubes marinated in tandoori spices and grilled to perfection."
+      },
+      {
+        "id": "104",
+        "name": "Butter Garlic Naan",
+        "price": 49,
+        "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?w=500&auto=format&fit=crop&q=60",
+        "description": "Soft and fluffy flatbread baked in tandoor, brushed with rich butter and minced garlic."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "La Piazza",
+    "cuisine": "Pizza",
+    "rating": 4.6,
+    "deliveryTime": "30-40 min",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=60",
+    "menu": [
+      {
+        "id": "201",
+        "name": "Margherita Classica Pizza",
+        "price": 299,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&auto=format&fit=crop&q=60",
+        "description": "Fresh tomato sauce, authentic mozzarella, fresh basil, and a drizzle of extra virgin olive oil."
+      },
+      {
+        "id": "202",
+        "name": "Spicy Pepperoni Pizza",
+        "price": 389,
+        "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500&auto=format&fit=crop&q=60",
+        "description": "Loaded with premium pepperoni slices, mozzarella, and chili flakes."
+      },
+      {
+        "id": "203",
+        "name": "Creamy Fettuccine Carbonara",
+        "price": 279,
+        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=500&auto=format&fit=crop&q=60",
+        "description": "Rich sauce made of egg yolks, parmesan cheese, and crispy bacon tossed with fettuccine."
+      },
+      {
+        "id": "204",
+        "name": "Cheesy Garlic Bread",
+        "price": 129,
+        "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=500&auto=format&fit=crop&q=60",
+        "description": "Toasted artisan bread with garlic butter, fresh parsley, and melted mozzarella."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Wok & Roll",
+    "cuisine": "Chinese",
+    "rating": 4.2,
+    "deliveryTime": "20-30 min",
+    "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800&auto=format&fit=crop&q=60",
+    "menu": [
+      {
+        "id": "301",
+        "name": "Veg Hakka Noodles",
+        "price": 149,
+        "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=500&auto=format&fit=crop&q=60",
+        "description": "Stir-fried noodles with crisp colorful veggies, soy sauce, and mild spices."
+      },
+      {
+        "id": "302",
+        "name": "Chili Chicken Dry",
+        "price": 219,
+        "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=500&auto=format&fit=crop&q=60",
+        "description": "Crispy chicken chunks tossed in spicy soy-chili sauce, bell peppers, and onions."
+      },
+      {
+        "id": "303",
+        "name": "Schezwan Fried Rice",
+        "price": 169,
+        "image": "https://images.unsplash.com/photo-1603133872878-68550a5e7b64?w=500&auto=format&fit=crop&q=60",
+        "description": "Fiery and flavorful fried rice seasoned with spicy homemade Schezwan sauce."
+      },
+      {
+        "id": "304",
+        "name": "Crispy Spring Rolls",
+        "price": 119,
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&auto=format&fit=crop&q=60",
+        "description": "Deep-fried rolls stuffed with sautéed shredded vegetables, served with sweet chili dip."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Burger Bistro",
+    "cuisine": "Burgers",
+    "rating": 4.4,
+    "deliveryTime": "15-25 min",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&auto=format&fit=crop&q=60",
+    "menu": [
+      {
+        "id": "401",
+        "name": "Classic Cheese Burger",
+        "price": 189,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&auto=format&fit=crop&q=60",
+        "description": "Juicy grilled beef patty, double melted cheddar, pickles, onions, and bistro signature sauce."
+      },
+      {
+        "id": "402",
+        "name": "Crispy Chicken Zinger",
+        "price": 169,
+        "image": "https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?w=500&auto=format&fit=crop&q=60",
+        "description": "Crispy fried chicken breast fillet, lettuce, tomato, and creamy mayonnaise on a brioche bun."
+      },
+      {
+        "id": "403",
+        "name": "Loaded French Fries",
+        "price": 129,
+        "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500&auto=format&fit=crop&q=60",
+        "description": "Golden salted fries smothered in hot cheese sauce, jalapeños, and green onions."
+      },
+      {
+        "id": "404",
+        "name": "Thick Oreo Milkshake",
+        "price": 139,
+        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500&auto=format&fit=crop&q=60",
+        "description": "Creamy vanilla ice cream blended with crushed Oreo cookies, topped with whipped cream."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Sweet Retreat",
+    "cuisine": "Desserts",
+    "rating": 4.7,
+    "deliveryTime": "10-20 min",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&auto=format&fit=crop&q=60",
+    "menu": [
+      {
+        "id": "501",
+        "name": "Choco Lava Cake",
+        "price": 99,
+        "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&auto=format&fit=crop&q=60",
+        "description": "Indulgent warm chocolate cake with a rich molten chocolate center flowing out."
+      },
+      {
+        "id": "502",
+        "name": "New York Cheesecake",
+        "price": 189,
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=500&auto=format&fit=crop&q=60",
+        "description": "Rich, creamy, and dense cheesecake baked on a graham cracker crust with strawberry compote."
+      },
+      {
+        "id": "503",
+        "name": "Belgian Chocolate Waffle",
+        "price": 149,
+        "image": "https://images.unsplash.com/photo-1562376502-6f769499c886?w=500&auto=format&fit=crop&q=60",
+        "description": "Freshly baked warm waffle drizzled with premium Belgian milk chocolate and white chocolate chips."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Taco Town",
+    "cuisine": "Mexican",
+    "rating": 4.3,
+    "deliveryTime": "25-35 min",
+    "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&auto=format&fit=crop&q=60",
+    "menu": [
+      {
+        "id": "601",
+        "name": "Fiesta Chicken Tacos",
+        "price": 199,
+        "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&auto=format&fit=crop&q=60",
+        "description": "Three soft flour tortillas filled with grilled chicken, fresh salsa, lime-cilantro cream, and cheddar."
+      },
+      {
+        "id": "602",
+        "name": "Loaded Burrito Bowl",
+        "price": 249,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&auto=format&fit=crop&q=60",
+        "description": "Cilantro-lime rice topped with black beans, sweet corn, guacamole, salsa, and grilled paneer or chicken."
+      },
+      {
+        "id": "603",
+        "name": "Cheesy Quesadilla",
+        "price": 179,
+        "image": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=500&auto=format&fit=crop&q=60",
+        "description": "Grilled flour tortilla stuffed with loaded melted cheese, grilled peppers, and onions, served with sour cream."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Healthy Bowls",
+    "cuisine": "Salads",
+    "rating": 4.1,
+    "deliveryTime": "20-30 min",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&auto=format&fit=crop&q=60",
+    "menu": [
+      {
+        "id": "701",
+        "name": "Mediterranean Caesar Salad",
+        "price": 159,
+        "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=500&auto=format&fit=crop&q=60",
+        "description": "Crispy romaine lettuce, parmesan cheese, herb croutons, and rich Caesar dressing."
+      },
+      {
+        "id": "702",
+        "name": "Quinoa Avocado Bowl",
+        "price": 229,
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500&auto=format&fit=crop&q=60",
+        "description": "Nutrient-packed fluffy quinoa, fresh sliced avocado, cucumber, cherry tomatoes, and lemon-tahini dressing."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Cafe Delight",
+    "cuisine": "Beverages",
+    "rating": 4.4,
+    "deliveryTime": "15-25 min",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&auto=format&fit=crop&q=60",
+    "menu": [
+      {
+        "id": "801",
+        "name": "Classic Cappuccino",
+        "price": 99,
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&auto=format&fit=crop&q=60",
+        "description": "Rich espresso shot with equal parts steamed milk and deep, velvety milk foam."
+      },
+      {
+        "id": "802",
+        "name": "Iced Caramel Macchiato",
+        "price": 129,
+        "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500&auto=format&fit=crop&q=60",
+        "description": "Espresso poured over ice, cold milk, and vanilla syrup, drizzled with buttery caramel sauce."
+      },
+      {
+        "id": "803",
+        "name": "Avocado Club Sandwich",
+        "price": 159,
+        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500&auto=format&fit=crop&q=60",
+        "description": "Double-decker sandwich with fresh sliced avocado, crisp lettuce, juicy tomato slices, and cheddar cheese."
+      }
+    ]
+  }
+]
