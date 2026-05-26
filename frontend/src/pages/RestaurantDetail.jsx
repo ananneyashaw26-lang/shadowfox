@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
+import { API_BASE_URL } from '../config';
 import FoodCard from '../components/FoodCard';
 
 const RestaurantDetail = () => {
@@ -12,7 +13,7 @@ const RestaurantDetail = () => {
   useEffect(() => {
     const fetchRestaurantDetail = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/restaurants/${id}`);
+        const response = await axios.get(`${API_BASE_URL}/restaurants/${id}`);
         setRestaurant(response.data);
       } catch (err) {
         console.error("Fetch restaurant detail error:", err);

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { API_BASE_URL } from '../config';
 import RestaurantCard from '../components/RestaurantCard';
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
   useEffect(() => {
     const fetchRestaurants = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/restaurants');
+        const response = await axios.get(`${API_BASE_URL}/restaurants`);
         setRestaurants(response.data);
         setFilteredRestaurants(response.data);
       } catch (err) {

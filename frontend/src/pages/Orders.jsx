@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { API_BASE_URL } from '../config';
 import { AuthContext } from '../context/AuthContext';
 
 const Orders = () => {
@@ -18,7 +19,7 @@ const Orders = () => {
 
     const fetchOrders = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/orders/${user.id}`, {
+        const response = await axios.get(`${API_BASE_URL}/orders/${user.id}`, {
           headers: {
             Authorization: token
           }

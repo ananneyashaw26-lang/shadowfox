@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { API_BASE_URL } from '../config';
 import { CartContext } from '../context/CartContext';
 import { AuthContext } from '../context/AuthContext';
 
@@ -35,7 +36,7 @@ const CartDrawer = ({ isOpen, onClose }) => {
       }));
 
       const response = await axios.post(
-        'http://localhost:5000/api/orders',
+        `${API_BASE_URL}/orders`,
         {
           items: itemsToSave,
           total: cartTotal
